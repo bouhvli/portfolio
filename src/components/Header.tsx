@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './navBar';
+import Navbar from '../components/Navbar';
 import logo from '../assets/logo.svg'
 
 const Header: React.FC = () => {
