@@ -80,7 +80,7 @@ const projects = [
 
                       In all three maps, a comparative analysis ensures that selected parcels not only meet individual criteria but also form a well-rounded choice. Prioritizing areas exceeding 150 meters from residences and parks contributes to a balanced selection, considering both project-specific needs and community considerations.
                       `,
-    repport: '../assets/pdf/Rapport_WWTP.pdf',
+    repport: 'https://drive.google.com/file/d/11mkH_z2_J1eSC16Bsf5GlFhjZBpr2sCo/view?usp=sharing',
     repportName: 'Rapport_WWTP.pdf',
   },
   {
@@ -130,7 +130,7 @@ const projects = [
 
                       <b>Parcel Suitability and Highlights:</b><br>
                       Our study identified three locations that meet our criteria, each exceeding 2.2 hectares, suitable for schools with an average of 24 to 32 classrooms, and conveniently located near the city.<br>One site, located in the east adjacent to National Road R207, spans 5 hectares. Another site, also in the east, is situated right next to Av. Attaîf and covers 20 hectares.<br>The third site, with a surface area of 3 hectares, is positioned in the south of the city along Road Number P2201. <br>These findings demonstrate the effectiveness of our approach in identifying viable school site locations based on scientific analysis and criteria.<br><br>`,
-    repport: '../assets/pdf/Repport_of_School_project.pdf',
+    repport: 'https://drive.google.com/file/d/199O2QtFiX0wRGamPchnAZ-IFXztksZmf/view?usp=sharing',
     repportName: 'Repport_of_School_project.pdf',
 
   },
