@@ -18,7 +18,7 @@ import Footer from '../components/Footer';
 
 const HomePage: React.FC = () => {
   const downloadResume = () => {
-    const resumeUrl = '../assets/pdf/BOUHALI_HAMZA_CV.pdf';
+    const resumeUrl = '/assets/pdf/BOUHALI_HAMZA_CV.pdf';
   
     const anchor = document.createElement('a');
     anchor.href = resumeUrl;
