@@ -18,7 +18,7 @@ import Footer from '../components/Footer';
 
 const HomePage: React.FC = () => {
   const downloadResume = () => {
-    const resumeUrl = 'https://drive.google.com/file/d/1nfWMx7luwn38NCvSCONLXCKsEcUz0uIy/view?usp=sharing';
+    const resumeUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1nfWMx7luwn38NCvSCONLXCKsEcUz0uIy&export=download';
   
     const anchor = document.createElement('a');
     anchor.href = resumeUrl;
