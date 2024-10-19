@@ -12,7 +12,7 @@ const App: React.FC = () => {
       <div className="flex flex-col justify-center items-center">
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/project" element={<Project />} />
           <Route path="/projectDetails/:id" element={<ProjectDetails />} />
