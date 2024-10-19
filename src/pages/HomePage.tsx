@@ -43,7 +43,6 @@ const HomePage: React.FC = () => {
             </p>
             <div className="flex flex-row gap-4">
               <Button asChild className="mt-8 hover:bg-slate-400"><Link className="hover:text-white" key="project" to={'/project'}>Check our Work <img src={arrow} className="w-4 h-4 ml-2" /> </Link></Button>
-              <a href="/assets/pdf/BOUHALI_HAMZA_CV.pdf" download="Hamza_BOUHALI_CV.pdf">Download Resume</a>
               <Button className="mt-8" variant="secondary" onClick={downloadResume}>Download resume <img src={arrowDown} className="w-4 h-4 ml-2" /></Button>
             </div>
           </div>  
