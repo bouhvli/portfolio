@@ -14,6 +14,7 @@ import gistool from '../assets/gistools.png'
 import othertools from '../assets/othertools.png'
 import FeaturedProjects from '../components/FeaturedProjects';
 import Footer from '../components/Footer';
+import { AccordionSection } from '../components/Accourding';
 
 
 const HomePage: React.FC = () => {
@@ -102,6 +103,10 @@ const HomePage: React.FC = () => {
         <FeaturedProjects />
       </section>
 
+      <section className="mx-auto py-16 flex flex-col items-center">
+        <h2 className="text-4xl font-bold text-center">Additional Information</h2>
+        <AccordionSection />
+      </section>
       {/* Footer */}
       <Footer />
 
