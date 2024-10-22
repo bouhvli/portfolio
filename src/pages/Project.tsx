@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import FeaturedProjects from "../components/FeaturedProjects";
 import Footer from "../components/Footer";
+import { AccordionSection } from "../components/Accourding";
 
 const Project: React.FC = () => {
   return (
@@ -12,6 +13,10 @@ const Project: React.FC = () => {
           Featured projects
         </h2>
         <FeaturedProjects />
+      </div>
+      <div className="w-full mx-auto py-16 flex flex-col items-center">
+        <h2 className="text-4xl font-bold text-center">About Us</h2>
+        <AccordionSection />
       </div>
       <Footer />
   </div>
